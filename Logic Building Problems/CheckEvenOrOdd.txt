@@ -1,0 +1,39 @@
+using System;
+
+namespace GeeksForGeeks
+{
+	class Problem
+	{
+		static void Main()
+		{
+			int input = Convert.ToInt32(Console.ReadLine());
+			// int input = int.Parse(Console.ReadLine());
+			if(input%2==0)
+				Console.WriteLine("Even Number");
+			else
+				Console.WriteLine("Odd Number");
+		}
+	}	
+}
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+using System;
+
+namespace GeeksForGeeks
+{
+	class Problem
+	{
+		static void Main()
+		{
+			//Bitwise And Operator
+			int input = int.Parse(Console.ReadLine());
+			if((input & 1) == 0)
+				Console.WriteLine("Even Number");
+			else
+				Console.WriteLine("Odd Number");
+		}
+	}	
+}
+
